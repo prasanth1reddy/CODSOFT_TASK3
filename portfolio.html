@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="C:\react\task1.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>portfolio</title>
+</head>
+<body>
+  <!-- Header section -->
+  <header class="header">
+    <a href="#" class="logo">Erugula Prasanth Reddy</a>
+    <i class='bx bx-menu' id="menu-icon" ></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+  <!-- Home Section -->
+  
+<section class="home" id="home">
+  <div class="home-content">
+      <h3>HI I'M</h3>
+      <h1>Prasanth Reddy</h1>
+      <h3>And I 'm a <span>Front end Developer </span></h3>
+      <div class="social-media">
+          <a href="https://github.com/prasanth1reddy"><i class='bx bxl-github' ></i></a>
+      </div>
+      <a href="#" class="btn" id="download-button">Download CV</a>
+  </div>
+  <div class="home-img">
+      <img src="/Images/r1.jpeg" alt="">
+  </div>
+</section>  
+
+<!-- about section -->
+<section class="about" id="about">
+  <div class="about-img">
+      <img src="/Images/r1.jpeg" alt="">
+  </div>
+  <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Front End Developer</h3>
+      <p>A dynamic front-end developer with a background in Computer Science engineering and a deep  Passion for Web development. Combining my technical expertise and creativity, I have  Successfully transitioned into the world of coding to craft captivating portfolio websites. Through dedicated learning and Hands-on experience, I have honed my skills in HTML, CSS, JavaScript, and various frameworks. With a problem-solving mindset and meticulous  Attention to detail.</p>
+      <a href="" class="btn">Read More</a>
+  </div>
+</section>
+<!-- skill section -->
+<section class="skill" id="skill">
+  <h2 class="heading">My <span>skills</span> </h2>
+  <div class="skill-box">
+      <h3><i class='bx bxl-html5 bx-tada' ></i>HTML</h3>
+      <h3><i class='bx bxl-javascript bx-tada' ></i>JAVASCRIPT</h3>
+      <h3><i class='bx bxl-css3 bx-tada' ></i>CSS</h3>
+      <h3><i class='bx bxl-react bx-tada' ></i>REACT JS</h3>
+      <h3><i class='bx bxl-bootstrap bx-tada' ></i>BOOTSTRAP</h3>
+  </div>
+</section>
+
+  <!-- contact section -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact</h2>
+        <h3>For Contact</h3>
+        <h5>Erugula Prasanth Reddy</h5>
+        <h5>Mobile : +91 9059888144</h5>
+        <h5>EMail : erugulaprasanthreddy@gmail.com</h5>
+</section>
+<!-- footer section -->
+<footer class="footer">
+  <div class="footer-text">
+      <p>Copyright &copy; 2024 by Prasanth Reddy Erugula | ALL Rights Reserved.</p>
+  </div>
+  <div class="footer-icon">
+      <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <script src="script.js"></script>
+<!-- add script file for resume download option -->
+<script>
+ 
+  document.getElementById("download-button").addEventListener("click", function (event) {
+      event.preventDefault();
+      window.open("M Bilal Reactjs.pdf", "_blank");
+  });
+
+
+
+</script>
+</body>
+</html>
